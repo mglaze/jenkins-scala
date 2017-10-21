@@ -11,3 +11,11 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+
+maintainer := "mglaze <glazemj@gmail.com>"
+
+packageSummary := "My custom package"
+
+packageDescription := "Package"
